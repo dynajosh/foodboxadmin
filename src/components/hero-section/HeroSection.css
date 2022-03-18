@@ -1,0 +1,131 @@
+.header-content {
+  padding: 0 5% 70px 8%;
+  display: flex;
+  background-color: #f3f5e6;
+  font-family: "poppins", sans-serif;
+}
+
+.header-content--text {
+  width: 100%;
+}
+
+.header-content h1 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bolder;
+  line-height: 1.4em;
+}
+
+.header-content h1 span {
+  margin-top: 20px;
+}
+
+.header-content p {
+  font-size: 14px;
+  line-height: 1.8em;
+  color: rgb(95, 101, 120);
+}
+
+.header-content .cta {
+  color: var(--yellow);
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "montserrat", sans-serif;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  height: 56px;
+  background-color: var(--dark);
+  padding: 0 32px;
+  border-radius: 30px;
+  white-space: nowrap;
+  margin-top: 30px;
+  text-decoration: none;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-content--lottie {
+  width: 50%;
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .header-content {
+    padding: 0 5% 90px 8%;
+    display: flex;
+  }
+
+  .header-content--text {
+    width: 50%;
+  }
+
+  .header-content h1 {
+    margin-top: 130px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 1.5em;
+    font-weight: bolder;
+  }
+
+  .header-content p {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: rgb(95, 101, 120);
+    text-align: justify;
+  }
+
+  .header-content .cta {
+    color: var(--yellow);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "montserrat", sans-serif;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    height: 56px;
+    background-color: var(--dark);
+    padding: 0 32px;
+    border-radius: 30px;
+    white-space: nowrap;
+    margin-top: 30px;
+    text-decoration: none;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .header-content--lottie {
+    width: 45%;
+    margin-left: 40px;
+    /* margin-top: 30px; */
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .header-content h1 {
+    margin-top: 190px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    line-height: 1.5em;
+    font-weight: bolder;
+  }
+
+  .header-content p {
+    font-size: 22px;
+    line-height: 1.5em;
+    color: rgb(95, 101, 120);
+    text-align: justify;
+  }
+}

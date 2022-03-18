@@ -1,0 +1,155 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.content-wrapper h4 {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -10px;
+}
+.content-wrapper h1 {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+.profile-wrapper p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center ;
+}
+.form-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 40px;
+  margin-top: 60px;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+.form-div {
+  width: 428px;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: 'poppins',sans-serif;
+  width: 100%;
+  margin-top: 40px;
+}
+.welcome-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+ .welcome-div h1 {
+   color: var(--dark);
+   font-size: 28px;
+   font-weight: 600;
+ }
+ .dashboard-cards {
+   display: grid;
+   margin-top: 60px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  
+ }
+
+ .dashboard-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 3px 9px rgba(0, 4, 8, 0.06) !important ;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 30px;
+  margin-bottom: 30px; */
+  height: 250px;
+  padding: 20px 5%;
+  border-radius: 8px;
+  width: 100%;
+  background-color: white;
+
+ }
+
+ .card-icon {
+   height: 60px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 25px;
+   background-color: #f1fbf4;
+   color: green
+ }
+ .card-icon span i {
+   font-size: 24px;
+   font-weight: 600;
+ }
+.card-description {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card-description p {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.card-value {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.subscribe-button {
+  border-radius: 10px;
+  background-color: #83edb8;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+ @media screen and (max-width: 900px) {
+  .dashboard-cards {
+    display: grid;
+    margin-top: 60px;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 30px;
+   
+  }
+ 
+}
+@media screen and (max-width: 600px) {
+  .dashboard-cards {
+    display: grid;
+    margin-top: 60px;
+     grid-template-columns:  1fr;
+     grid-gap: 30px;
+   
+  }
+ 
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.content-wrapper h4 {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -10px;
+}
+.content-wrapper h1 {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
